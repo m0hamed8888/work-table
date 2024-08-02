@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Local Storage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD with Local Storage</h1>
+        <form id="dataForm">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+
+            <label for="dayName">Name of Day:</label>
+            <input type="text" id="dayName" name="dayName" required>
+
+            <button type="submit">Save</button>
+        </form>
+        <ul id="itemList"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
