@@ -12,16 +12,17 @@
         <form id="dataForm">
             <label for="date">Date:</label>
             <input type="date" id="date" name="date" required>
-
+            
             <label for="price">Price:</label>
-            <input type="number" id="price" name="price" required>
-
+            <input type="number" id="price" name="price" step="0.01" required>
+            
             <label for="dayName">Name of Day:</label>
             <input type="text" id="dayName" name="dayName" required>
-
+            
             <button type="submit">Save</button>
         </form>
         <ul id="itemList"></ul>
+        <div id="totalPrice"></div>
     </div>
     <script src="main.js"></script>
 </body>
